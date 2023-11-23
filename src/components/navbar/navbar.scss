@@ -1,0 +1,28 @@
+.navbar {
+  height: 100px;
+}
+
+/*adding styles to wrapper */
+.wrapper {
+  max-width: 1366px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+
+  span {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .social {
+    display: flex;
+    gap: 20px;
+
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
