@@ -1,4 +1,5 @@
 import React from 'react'
+import {motion} from "framer-motion"
 
 const ToggleButton = ({setOpen}) => {
   return (
@@ -34,7 +35,8 @@ const ToggleButton = ({setOpen}) => {
         />
       </svg>
     </button>
+
   );
-};
+        }
 
 export default ToggleButton
