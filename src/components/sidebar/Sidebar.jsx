@@ -5,7 +5,7 @@ import Links from "./links/Links"
 import { motion } from "framer-motion"
 
 //animation 
-  const variants = {
+  {/*const variants = {
     open: {
       clipPath: "circle (1200px at 50x 50px)",
       transition: {
@@ -25,7 +25,7 @@ import { motion } from "framer-motion"
 
     },
 
-  };
+  };*/}
 
   const Sidebar = () => {
     const [ open, setOpen ] = useState(false)
@@ -33,7 +33,7 @@ import { motion } from "framer-motion"
   return (
     <motion.div className='sidebar' animate={open ? "open" : "closed"}>
       
-      <motion.div className="bg" variants={variants}>
+      <motion.div className="bg"> {/*} variants={variants}*/} 
 
         {/*rendered link component */}
         <Links />
