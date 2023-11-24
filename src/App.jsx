@@ -8,13 +8,13 @@ const App = () => {
     <section id = "Homepage"> 
       <Navbar /> 
     </section>
-    <section id = "Services"> Parallax </section>
+    <section id="Services"> Parallax </section>
     <section > Services </section>
     <section id = "Portfolio"> Parallax </section>
     <section> Portfolio1 </section>
     <section> Portfolio2 </section>
     <section> Portfolio3 </section>
-    <section id ="Contact"> 
+    <section id="Contact"> 
       Contact 
     </section>
   </div>;
