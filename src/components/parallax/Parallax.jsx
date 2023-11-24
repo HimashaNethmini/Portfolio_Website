@@ -1,11 +1,22 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import './parallax.scss'
+import { motion, useScroll, useTransform } from "framer-motion"
 
 const Parallax = ( {type} ) => {
+  const ref = useRef()
+
+  const { scrollYProgress } = useScroll({
+    target:ref,
+    offset: ["start start", "end start"] //start animation when page is in the tab and end while it's scroll up
+  });
+
+  const yText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
+  const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
   return (
     <div
       className="parallax"
+      ref={ref}
       style={{
         background:
           type === "services"
@@ -14,10 +25,22 @@ const Parallax = ( {type} ) => {
       }}
     >
 
-      <h1> {type === "services" ? "What We Do?" : "What We Did?"}</h1>
-      <div className="mountains"></div>
-      <div className="planets"></div>
-      <div className="stars"></div>
+      <motion.h1 style={{ y: yText }}> 
+        {type === "services" ? "Who Am I ?" : "What I Do ?"}
+      </motion.h1>
+
+      <motion.div className="mountains"></motion.div>
+
+      <motion.div 
+        className="planets"
+        style={{
+          y: yBg
+          backgroundImage: `url(${
+            type === "services" ? "/planets.png" : "/sun.png"
+          })`,
+        }}></motion.div>
+
+      <motion.div className="stars"></motion.div>
     </div>
   )
 }
