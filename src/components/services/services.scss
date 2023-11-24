@@ -1,3 +1,18 @@
 .services {
-    
+    background: linear-gradient(180deg, #0c0c1d, #111122);
+    height: 100%;
+
+    .textContainer{}
+    .titleContainer{
+
+        .title{
+            img{
+                width: 300px;
+                height: 100px;
+                border-radius: 50px;
+                object-fit: cover;
+            }
+        }
+    }
 }
+
