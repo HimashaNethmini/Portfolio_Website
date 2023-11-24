@@ -10,7 +10,7 @@ const Parallax = ( {type} ) => {
     offset: ["start start", "end start"] //start animation when page is in the tab and end while it's scroll up
   });
 
-  const yText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
+  const yText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]); //control animation speed
   const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
   return (
