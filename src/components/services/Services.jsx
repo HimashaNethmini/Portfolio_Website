@@ -29,7 +29,8 @@ const Services = () => {
 
 {/* list of services */}
         <motion.div className="listContainer">
-            <div className="box">
+            <motion.div className="box"
+                whileHover={{background: "lightgray", color:"black" }}>
                 <h2>Branding</h2>
                 <p>
                 Lorem Ipsum has been the industry's standard dummy text 
@@ -40,10 +41,11 @@ const Services = () => {
                 of type and scrambled it to make a type ...
                 </p>
                 <button>Go</button>
-            </div>
+            </motion.div>
 
             
-            <div className="box">
+            <motion.div className="box"
+                whileHover={{background: "lightgray", color:"black" }}>
                 <h2>Branding</h2>
                 <p>
                 Lorem Ipsum has been the industry's standard dummy text 
@@ -54,9 +56,10 @@ const Services = () => {
                 of type and scrambled it to make a type ...
                 </p>
                 <button>Go</button>
-            </div>
+            </motion.div>
 
-            <div className="box">
+            <motion.div className="box"
+                whileHover={{background: "lightgray", color:"black" }}>
                 <h2>Branding</h2>
                 <p>
                 Lorem Ipsum has been the industry's standard dummy text 
@@ -67,9 +70,10 @@ const Services = () => {
                 of type and scrambled it to make a type ...
                 </p>
                 <button>Go</button>
-            </div>
+            </motion.div>
 
-            <div className="box">
+            <motion.div className="box"
+                whileHover={{background: "lightgray", color:"black" }}>
                 <h2>Branding</h2>
                 <p>
                 Lorem Ipsum has been the industry's standard dummy text 
@@ -80,9 +84,7 @@ const Services = () => {
                 of type and scrambled it to make a type ...
                 </p>
                 <button>Go</button>
-            </div>
-
-
+            </motion.div>
 
         </motion.div>
       
