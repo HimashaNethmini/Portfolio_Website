@@ -40,7 +40,8 @@ const Parallax = ( {type} ) => {
           })`,
         }}></motion.div>
 
-      <motion.div className="stars"></motion.div>
+{/*stars won't move here and there */}
+      <motion.div className="stars" style={{ x: yBg }}></motion.div>
     </div>
   )
 }
