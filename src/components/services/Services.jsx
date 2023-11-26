@@ -25,6 +25,7 @@ const Services = () => {
 
   const isInView = useInView(ref, { margin: "-100px" });
 
+  //map to function
   return (
     <motion.div
       className="services"
