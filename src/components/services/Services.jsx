@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "./services.scss";
 import { motion, useInView } from "framer-motion";
 
+//make animation
 const variants = {
   initial: {
     x: -500,
