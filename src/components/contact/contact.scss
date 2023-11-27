@@ -8,25 +8,26 @@
 }
 
 h1 {
-    
+
     font-size: 100px;
 }
 
-.formContainer{
+.formContainer {
     flex: 1;
 
     form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    
-    input,textarea {
-        padding: 20px;
-        background-color: transparent;
-        border: 1px solid white;
-        color: white;
-        border-radius: 5px;
-    }
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        input,
+        textarea {
+            padding: 20px;
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            border-radius: 5px;
+        }
 
         button {
             padding: 20px;
@@ -34,7 +35,7 @@ h1 {
             background-color: orange;
             cursor: pointer;
             font-weight: 500;
-            
+
+        }
     }
-}
 }
