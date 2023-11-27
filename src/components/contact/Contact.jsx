@@ -1,10 +1,28 @@
 import React from "react";
 import "./contact.scss";
+import { motion } from "framer-motion";
+
+//animation created
+const variants = {
+  initial: {
+    y: 500,
+    opacity: 0,
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+      staggerChildren: 0.1
+    },
+  },
+
+};
 
 const Contact = () => {
   return (
-    <div className="contact">
-      <div className="textContainer">
+    <div className="contact" variants={variants}>
+      <div className="textContainer" variants={variants}>
         <h1>Let's work 
           <br />
           together</h1>
