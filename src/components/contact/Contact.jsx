@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.scss";
-import { motion } from "framer-motion";
+import { animate, motion } from "framer-motion";
 
 //animation created
 const variants = {
@@ -21,22 +21,26 @@ const variants = {
 
 const Contact = () => {
   return (
-    <div className="contact" variants={variants}>
-      <div className="textContainer" variants={variants}>
+    <motion.div 
+      className="contact" 
+      variants={variants}
+      initial="initial"
+      whileInView="animate">
+      <motion.div className="textContainer" variants={variants}>
         <h1>Let's work 
           <br />
           together</h1>
-      </div>
+      </motion.div>
 
-      <div className="formContainer">
+      <motion.div className="formContainer">
         <form>
           <input type="text" placeholder="Name" required/>
           <input type="email" placeholder="Email" required />
           <textarea placeholder="Type a Message" rows={10} required />
           <button>Submit</button>
         </form>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 
