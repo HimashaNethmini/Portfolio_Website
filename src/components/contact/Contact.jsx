@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
+import Footer from "../footer/Footer";
 //import emailjs from "@emailjs/browser";
 
 const variants = {
@@ -38,7 +39,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          setSuccess(true)
+          setSuccess(true);
         },
         (error) => {
           setError(true);
@@ -70,7 +71,6 @@ const Contact = () => {
         </motion.div>
       </motion.div>
 
-      
       <div className="formContainer">
         <motion.div
           className="phoneSvg"
@@ -111,14 +111,17 @@ const Contact = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
         >
-          <input type="text" required placeholder="Name" name="name"/>
-          <input type="email" required placeholder="Email" name="email"/>
-          <textarea rows={8} placeholder="Message" name="message"/>
+          <input type="text" required placeholder="Name" name="name" />
+          <input type="email" required placeholder="Email" name="email" />
+          <textarea rows={8} placeholder="Message" name="message" />
           <button>Submit</button>
           {error && "Error"}
           {success && "Success"}
         </motion.form>
       </div>
+
+      {/*footer */}
+      <Footer />
     </motion.div>
   );
 };
