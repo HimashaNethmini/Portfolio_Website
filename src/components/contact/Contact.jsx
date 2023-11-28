@@ -71,6 +71,7 @@ const Contact = () => {
         </motion.div>
       </motion.div>
 
+{/* svg animation */}
       <div className="formContainer">
         <motion.div
           className="phoneSvg"
@@ -102,6 +103,7 @@ const Contact = () => {
             />
           </svg>
         </motion.div>
+{/* end of svg animation*/}
 
         {/*form */}
         <motion.form
