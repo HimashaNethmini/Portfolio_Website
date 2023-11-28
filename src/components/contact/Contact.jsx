@@ -33,10 +33,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
+        "service_m5icoq6", //my service id
+        "template_a3muajm",  // my template id
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "yxWydNjBuCJ-U2QPV" //account id
       )
       .then(
         (result) => {
