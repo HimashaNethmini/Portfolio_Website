@@ -34,11 +34,17 @@
       }
 
       h1 {
-        font-size: 88px;
+        font-size: 74px;
 
        /* @include mobile {
           font-size: 36px;
         }*/
+      }
+
+      h4{
+        font-size: 50px;
+        text-align: center;
+
       }
 
       .buttons {

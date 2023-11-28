@@ -8,7 +8,9 @@ const Hero = () => {
           className="textContainer">
           <h2>IM A</h2>
           <h1>
-            Web developer and UI designer
+            Full Stack Developer 
+            <h4 >and</h4>
+             Frontend Developer
           </h1>
           <div className="buttons">
             <button>
@@ -21,7 +23,7 @@ const Hero = () => {
       </div>
       
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img src="/fed.png" alt="" />
       </div>
     </div>
   );
