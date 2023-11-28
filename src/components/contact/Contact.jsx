@@ -21,13 +21,13 @@ const variants = {
 
 const Contact = () => {
   const ref = useRef();
-  const formRef = useRef();  //emailjs configuration line
+  const formRef = useRef();  //emailjs fucntion configuration line
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
 
   const isInView = useInView(ref, { margin: "-100px" });
 
-  //email js configuartion start
+  //email js configuration start
   const sendEmail = (e) => {
     e.preventDefault();
 
