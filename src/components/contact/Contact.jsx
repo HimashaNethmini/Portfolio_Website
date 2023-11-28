@@ -33,8 +33,8 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_m5icoq6", //my service id
-        "template_a3muajm",  // my template id
+        "service_rx9rtq5", //my service id
+        "template_a9n8nsa",  // my template id
         formRef.current,
         "yxWydNjBuCJ-U2QPV" //account id
       )
