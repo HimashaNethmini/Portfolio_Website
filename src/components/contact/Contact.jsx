@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import Footer from "../footer/Footer";
-//import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 
 const variants = {
   initial: {
@@ -21,12 +21,13 @@ const variants = {
 
 const Contact = () => {
   const ref = useRef();
-  const formRef = useRef();
+  const formRef = useRef();  //emailjs configuration line
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
 
   const isInView = useInView(ref, { margin: "-100px" });
 
+  //email js configuartion start
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -46,6 +47,7 @@ const Contact = () => {
         }
       );
   };
+//end
 
   //created animation
   return (
@@ -107,7 +109,7 @@ const Contact = () => {
 
         {/*form */}
         <motion.form
-          ref={formRef}
+          ref={formRef}  //connecting to emailjs
           onSubmit={sendEmail}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
