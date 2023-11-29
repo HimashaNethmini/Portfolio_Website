@@ -47,7 +47,9 @@ const Services = () => {
 
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.webp" alt="" />
+          <p> Hello !I'm Himasha Nethmini, a Final year undergraduate at University of SLIIT, pursuing a BSc (Hons) Spec. in Information Technology. I am a person with a heart full of curiosity and a head buzzing with creativity. Whether it's tinkering with design, coding, problem-solving or diving into the world of IT, I find joy in every aspect of what I do. My journey is painted with a palette of experiences that have sculpted me into someone who's not just about the skills but also about the journey. I believe in continuous learning,collaboration,committment, and always bring a positive vibe to the table. 
+If you're looking for someone who's not just a professional but also a friendly face, let's connect! I'm all ears for new conversations and adventures. Can't wait to chat and explore where creativity takes us! </p>
+          {/*<img src="/people.webp" alt="" />
           <h1>
             <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
           </h1>
@@ -55,9 +57,9 @@ const Services = () => {
         <div className="title">
           <h1>
             <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
-          </h1>
-          <button>WHAT WE DO?</button>
-        </div>
+  </h1>*
+  <button>WHAT I DO?</button>*/}
+  </div>
       </motion.div>
 
       <motion.div className="listContainer" variants={variants}>
