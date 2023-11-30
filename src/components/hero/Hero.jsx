@@ -4,17 +4,17 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="wrapper">
-        <div
-          className="textContainer">
+        <div className="textContainer">
           <h2>IM A</h2>
           <h1>
-            Full Stack Developer 
-            <h4 >and</h4>
-             Frontend Developer
+            Fullstack Developer 
+            {/*<h4 >and</h4>
+             Frontend Developer*/}
           </h1>
+
           <div className="buttons">
             <button>
-              See the Latest Works
+              Download CV
             </button>
             <button>Contact Me</button>
           </div>
