@@ -77,24 +77,22 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Web Development</h2>
+          <h2>Fullstack App</h2>
           <p>
-            I have experienced in developing seamless user-friendly and responsive ( respond to different screens ) websites and web applications using React Js, Next Js, and Node Js.
-            Please check out my github for projects.
+            I have experiences in developing numerous seamless user-friendly and responsive ( respond to different screens ) websites and web applications using MERN stack, Next Js and Angular.
+            Please check my github for more details. 
           </p>          
-          <a href="https://chat.openai.com/c/0c82d73a-25bd-49e3-8231-0792dec08bbf">Go</a>
+          <a href="https://github.com/HimashaNethmini/Digital_Business">Go</a>
         </motion.div>
 
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Fullstack App</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            I have experienced in developing full stack web application especially utilizing MERN. I have developed several projects 
+            within the above stack. Please check my github for more details. 
           </p>
           <a href="https://chat.openai.com/c/0c82d73a-25bd-49e3-8231-0792dec08bbf">Go</a>
         </motion.div>
@@ -103,12 +101,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Database</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Whenever developing an application, I prefer working with Mongo DB, My SQL as the databases.Not only that, I also have experienced in Oracle
           </p>
           <a href="https://chat.openai.com/c/0c82d73a-25bd-49e3-8231-0792dec08bbf">Go</a>
         </motion.div>
@@ -117,14 +112,12 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Mobile Application</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            As a semester project, I have developed a mobile application in Android studio using Java. Furthermore,
+            I am currently developing a mobile application using React Native for the final year research. 
           </p>
-          <a href="https://chat.openai.com/c/0c82d73a-25bd-49e3-8231-0792dec08bbf">Go</a>
+          <a href="#">Go</a>
         </motion.div>
       </motion.div>
     </motion.div>
