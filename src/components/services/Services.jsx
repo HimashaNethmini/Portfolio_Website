@@ -57,7 +57,7 @@ const Services = () => {
             do. My journey is painted with a palette of experiences that have
             sculpted me into someone who's not just about the skills but also
             about the journey. I believe in continuous
-            learning,collaboration,committment, and always bring a positive vibe
+            learning, collaboration, committment, and always bring a positive vibe
             to the table. If you're looking for someone who's not just a
             professional but also a friendly face, let's connect! I'm all ears
             for new conversations and adventures. Can't wait to chat and explore
@@ -79,7 +79,7 @@ const Services = () => {
         >
           <h2>Fullstack App</h2>
           <p>
-            I have experiences in developing numerous seamless user-friendly and responsive ( respond to different screens ) websites and web applications using MERN stack, Next Js and Angular.
+            I have experiences in developing numerous seamless user-friendly and responsive ( respond to different screens ) websites and web applications using MERN stack, Next Js, Angular and Springboot (Java).
             Please check my github for more details. 
           </p>          
           <a href="https://github.com/HimashaNethmini/Digital_Business">Go</a>
@@ -89,12 +89,12 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Fullstack App</h2>
+          <h2>UI / UX Design</h2>
           <p>
-            I have experienced in developing full stack web application especially utilizing MERN. I have developed several projects 
-            within the above stack. Please check my github for more details. 
+          I have experiences in designing several websites in aspects of UI/UX. Recently, I have redesign a cupcake website after identifying numerous usability and user-friendly issues.
+          I have used Figma to design UI/UX. Take a look
           </p>
-          <a href="https://chat.openai.com/c/0c82d73a-25bd-49e3-8231-0792dec08bbf">Go</a>
+          <a href="https://www.figma.com/proto/M6EcRtZslfmWjooM8zJT9h/Home-page?node-id=2-2&starting-point-node-id=2%3A2">Go</a>
         </motion.div>
 
         <motion.div
@@ -103,9 +103,8 @@ const Services = () => {
         >
           <h2>Database</h2>
           <p>
-            Whenever developing an application, I prefer working with Mongo DB, My SQL as the databases.Not only that, I also have experienced in Oracle
-          </p>
-          <a href="https://chat.openai.com/c/0c82d73a-25bd-49e3-8231-0792dec08bbf">Go</a>
+          I specialized in application development, favoring MongoDB and MySQL as my go-to databases. Majority of the app uses MOngo DB. Additionally, I bring experience in Oracle to ensure versatility in handling diverse database needs.</p>
+          <a href="#">Go</a>
         </motion.div>
 
         <motion.div
