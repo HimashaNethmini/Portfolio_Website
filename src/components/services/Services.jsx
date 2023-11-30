@@ -48,7 +48,6 @@ const Services = () => {
       <motion.div className="titleContainer" variants={variants}>
         <div className="title1">
           <p>
-            {" "}
             Hello <span style={{ color: "orange" }}>!</span> I'm Himasha
             Nethmini, a Final year undergraduate at University of SLIIT,
             pursuing a BSc (Hons) Spec. in Information Technology. I am a person
@@ -78,14 +77,12 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Web Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
+            I have experienced in developing seamless user-friendly and responsive ( respond to different screens ) websites and web applications using React Js, Next Js, and Node Js.
+            Please check out my github for projects.
+          </p>          
+          <a href="https://chat.openai.com/c/0c82d73a-25bd-49e3-8231-0792dec08bbf">Go</a>
         </motion.div>
 
         <motion.div
@@ -99,7 +96,7 @@ const Services = () => {
             animi! Ad nam pariatur assumenda quae mollitia libero repellat
             explicabo maiores?
           </p>
-          <button>Go</button>
+          <a href="https://chat.openai.com/c/0c82d73a-25bd-49e3-8231-0792dec08bbf">Go</a>
         </motion.div>
 
         <motion.div
@@ -113,7 +110,7 @@ const Services = () => {
             animi! Ad nam pariatur assumenda quae mollitia libero repellat
             explicabo maiores?
           </p>
-          <button>Go</button>
+          <a href="https://chat.openai.com/c/0c82d73a-25bd-49e3-8231-0792dec08bbf">Go</a>
         </motion.div>
 
         <motion.div
@@ -127,7 +124,7 @@ const Services = () => {
             animi! Ad nam pariatur assumenda quae mollitia libero repellat
             explicabo maiores?
           </p>
-          <button>Go</button>
+          <a href="https://chat.openai.com/c/0c82d73a-25bd-49e3-8231-0792dec08bbf">Go</a>
         </motion.div>
       </motion.div>
     </motion.div>
