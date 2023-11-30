@@ -19,20 +19,12 @@
       justify-content: center;
       gap: 40px;
 
-      /*@include mobile {
-        height: 50%;
-        width: 100%;
-        gap: 20px;
-        align-items: center;
-        text-align: center;
-      }*/
-
       h2 {
         font-size: 30px;
         color: rebeccapurple;
         letter-spacing: 10px;
       }
-
+      
       h1 {
         font-size: 74px;
 
@@ -45,7 +37,9 @@
         font-size: 50px;
         text-align: center;
 
-      }
+      } 
+
+
 
       .buttons {
         button {
