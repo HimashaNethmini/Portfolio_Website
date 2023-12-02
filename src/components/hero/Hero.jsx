@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="hero">
       <div className="wrapper">
         <div className="textContainer">
-          <h2>IM A</h2>
+          <h2>HIMASHA NETHMINI</h2>
           <h1>
             Fullstack Developer 
             {/*<h4 >and</h4>
