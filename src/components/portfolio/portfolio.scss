@@ -40,9 +40,9 @@
       justify-content: center;
       gap: 50px;
 
-     /* @include mobile {
+      @include mobile {
         flex-direction: column;
-      }*/
+      }
 
       .imageContainer {
         flex: 1;
