@@ -27,3 +27,23 @@ section {
     height: 100vh;
     scroll-snap-align: center;
 }
+//defining a function for mobile sizes - responsive
+@mixin mobile {
+    @media (max-width: 738px) {
+        @content;   
+    }
+}
+
+//defining a function for tablet sizes - responsive
+@mixin mobile {
+    @media (max-width: 1024px) {
+        @content;       
+    }
+}
+
+//defining a function for dekstop sizes - responsive
+@mixin mobile {
+    @media (max-width: 1366px) {
+        @content;       
+    }
+}
