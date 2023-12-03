@@ -7,9 +7,10 @@
     border: 1px solid white;
     position: fixed;
     z-index: 999;
+
+    @include mobile {
+        display: none;
+    }
 }
 
 //remove the cursor component when using the phone cause we use fingers
-@include mobile {
-    display: none;
-}
