@@ -5,11 +5,14 @@ import Parallax from "./components/parallax/Parallax";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
+import Cursor from "./components/cursor/Cursor";
 
 const App = () => {
   return (
     <div>
-      {/* linking to the website */}
+      <Cursor /> {/*adding the cursor component */}
+
+      {/* components linking to the website */}
       <section id="Homepage">
         <Navbar />
         <Hero />
