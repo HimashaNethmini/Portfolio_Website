@@ -25,10 +25,6 @@
             font-size: 18px;
             color: gray;
             text-align: right;
-
-            @include mobile {
-
-            }
         }
 
         hr {
@@ -49,14 +45,30 @@
         align-items: center;
         font-size: 18px;
 
+        /*@include mobile {
+            width: 100%;
+        }*/
+
         .title1 {
             display: flex;
             text-align: justify;
 
+            @include mobile {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
+
             p {
                 margin-left: 100px;
                 margin-right: 100px;
-                line-height: 1.6;
+                //line-height: 1.6px;
+
+                @include mobile {
+                    margin-left: 60px;
+                    margin-right: 50px;
+                    margin-top: 20px;
+                }
             }
 
         }
@@ -67,6 +79,10 @@
             margin-top: 10px;
             margin-left: 1000px;
 
+            @include mobile {
+                margin-left: 40px;               
+            }
+
             button {
                 width: 250px;
                 height: 80px;
@@ -76,6 +92,13 @@
                 border: none;
                 font-size: 24px;
                 cursor: pointer;
+
+                @include mobile {
+                    width: 150px;
+                    height: 50px;
+                    font-size: 18px;                
+                    
+                }
             }
         }
     }
@@ -87,12 +110,24 @@
     max-width: 1366px;
     margin: auto;
 
+    @include mobile {
+        flex-direction: column;
+        width: 100%;
+    }
+
     .box {
         padding: 50px;
         border: 0.5px solid gray;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+
+        @include mobile {
+            border: none;
+            align-items: center;
+            gap: 8px;
+            padding: 10px;
+        }
 
         a {
             padding: 5px;
@@ -109,6 +144,16 @@
             margin-left: 5rem;
             color: black;
 
+            @include mobile {
+                background-color: transparent;
+                border: 1px solid orange;
+                border-radius: 5px;
+                color: orange;
+                width: 15%;
+                padding-left: 18px;
+                margin-right:5rem;
+
+            }
         }
     }
 
