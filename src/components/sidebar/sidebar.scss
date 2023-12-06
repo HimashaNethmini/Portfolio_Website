@@ -19,7 +19,7 @@
 
         @include mobile {
             width: 100%;
-            background-color: #c1c1c1;
+            background-color: #c1c1c1; {/* change colour in responsive */}
         }
 
         .links {
