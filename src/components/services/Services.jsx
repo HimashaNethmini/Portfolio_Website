@@ -67,8 +67,7 @@ const Services = () => {
 
         <div className="type">
           <button>WHAT I DO?</button>
-        </div>
-          
+        </div>          
         
       </motion.div>
 
@@ -89,7 +88,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>UI / UX Design</h2>
+          <h2>UI / UX Design </h2>
           <p>
           I have experiences in designing several websites in aspects of UI/UX. Recently, I have redesign a cupcake website after identifying numerous usability and user-friendly issues.
           I have used Figma to design UI/UX. Take a look
@@ -101,9 +100,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Database</h2>
+          <h2>Database </h2>
           <p>
-          I specialized in application development, favoring MongoDB and MySQL as my go-to databases. Majority of the app uses MOngo DB. Additionally, I bring experience in Oracle to ensure versatility in handling diverse database needs.</p>
+          I specialized in application development, favoring MongoDB & MySQL as my go-to DB. Majority of the app, uses MongoDB. Additionally, I bring experience in Oracle to ensure versatility in handling diverse database needs.</p>
           <a href="#">Go</a>
         </motion.div>
 
@@ -111,9 +110,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Mobile Application</h2>
+          <h2>Mobile App </h2>
           <p>
-            As a semester project, I have developed a mobile application in Android studio using Java. Furthermore,
+             As in semester I have developed a mobile application in Android studio using Java. Furthermore,
             I am currently developing a mobile application using React Native for the final year research. 
           </p>
           <a href="#">Go</a>
