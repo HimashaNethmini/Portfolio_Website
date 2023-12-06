@@ -1,4 +1,4 @@
-//@import "../../app.scss";
+@import "../../app.scss";
 
 .hero {
   height: calc(100vh - 100px);
@@ -19,6 +19,14 @@
       justify-content: center;
       gap: 40px;
 
+      @include mobile {
+        height: 50%;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+      }
+
       h2 {
         font-size: 30px;
         color: rebeccapurple;
@@ -28,9 +36,9 @@
       h1 {
         font-size: 74px;
 
-       /* @include mobile {
+        @include mobile {
           font-size: 36px;
-        }*/
+        }
       }
 
       h4{
@@ -38,8 +46,6 @@
         text-align: center;
 
       } 
-
-
 
       .buttons {
         button {
@@ -66,12 +72,12 @@
     top: 0;
     right: 0;
 
-    /*@include mobile {
+    @include mobile {
       height: 50%;
       width: 100%;
       top: unset;
       bottom: 0;
-    }*/
+    }
 
     img{
       width: 100%;
