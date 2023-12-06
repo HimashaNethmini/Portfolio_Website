@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .services {
     background: linear-gradient(180deg, #0c0c1d, #111122);
     height: 100%;
@@ -12,16 +14,31 @@
         align-items: center;
         gap: 20px;
 
+        @include mobile {
+            align-self: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
         p {
             font-weight: 200;
-            font-size: 20px;
+            font-size: 18px;
             color: gray;
+            text-align: right;
+
+            @include mobile {
+
+            }
         }
 
         hr {
             width: 500px;
             border: none;
             border-top: 0.5px solid gray;
+
+            @include mobile {
+                width: 300px;
+            }
         }
     }
 
@@ -30,7 +47,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 1.5rem;
+        font-size: 18px;
 
         .title1 {
             display: flex;
@@ -46,12 +63,13 @@
 
         .type {
             justify-content: left;
-            margin-top: 30px;
+            margin-bottom: 20px;
+            margin-top: 10px;
             margin-left: 1000px;
 
             button {
-                width: 300px;
-                height: 100px;
+                width: 250px;
+                height: 80px;
                 font-weight: bold;
                 border-radius: 50px;
                 background-color: orange;
@@ -76,21 +94,19 @@
         flex-direction: column;
         justify-content: space-between;
 
-
         a {
-            padding: 10px;
-            padding-left: 90px;
+            padding: 5px;
+            padding-left: 35px;
             margin-bottom: -1rem;
             background-color: orange;
             border: none;
             cursor: pointer;
             border-radius: 50px;
-            width: 200px;
-            height: 50px;
+            width: 100px;
+            height: 30px;
             font-weight: bolder;
             font-size: 1.20rem;
-            margin-left: 2rem;
-            margin-left: 2rem;
+            margin-left: 5rem;
             color: black;
 
         }
