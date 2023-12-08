@@ -3,7 +3,7 @@ import "./hero.scss";
 
 const Hero = () => {
   useEffect (()=> {
-    //initialize
+    //initialize Typed instance when component mounts
     var typed = new Typed(".auto-input",{
       strings: ["Fullstack Developer", "UI / UX Designer", "Software Engineer"],
       typeSpeed: 100,
@@ -11,12 +11,11 @@ const Hero = () => {
       loop: true
     });
     
-    //clean 
+    //clean up Typed instance when component unmounts
     return () => {
       typed.destroy();
     };
-  }, []);
-  //empty dependency
+  }, []); //empty dependency array ensure the effect runs once
 
   return (
     <div className="hero">
