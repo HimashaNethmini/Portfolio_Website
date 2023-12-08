@@ -11,8 +11,8 @@ const App = () => {
   return (
     <div>
       <Cursor /> {/*adding the cursor component */}
-
-      {/* components linking to the website */}
+  
+     {/* components linking to the website */}
       <section id="Homepage">
         <Navbar />
         <Hero />
@@ -25,16 +25,16 @@ const App = () => {
       <section>
         <Services />
       </section>
-      
+
       <section id="Portfolio">
         <Parallax type="portfolio" />
       </section>
-        <Portfolio />
 
+      <Portfolio />
       <section id="Contact">
         <Contact />
       </section>
-     
+          
     </div>
   );
 };
