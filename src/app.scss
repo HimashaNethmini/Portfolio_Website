@@ -35,14 +35,14 @@ section {
 }
 
 //defining a function for tablet sizes - responsive
-@mixin mobile {
+@mixin tablet {
     @media (max-width: 1024px) {
         @content;       
     }
 }
 
 //define a function for dekstop sizes - responsive
-@mixin mobile {
+@mixin desktop {
     @media (max-width: 1366px) {
         @content;       
     }
