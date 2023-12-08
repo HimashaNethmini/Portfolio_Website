@@ -112,7 +112,7 @@ const Services = () => {
         >
           <h2>Mobile App </h2>
           <p>
-             As in semester I have developed a mobile application in Android studio using Java. Furthermore,
+             As in semester, I have developed a mobile application in Android studio using Java. Furthermore,
             I am currently developing a mobile application using React Native for the final year research. 
           </p>
           <a href="#">Go</a>
