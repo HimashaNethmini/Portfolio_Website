@@ -18,6 +18,8 @@
       align-self: center;
       text-align: center;
       flex-direction: column;
+      gap: 10px;
+      
     }
 
     p {
@@ -45,6 +47,11 @@
     align-items: center;
     font-size: 18px;
 
+    @include mobile {
+      margin-top: -5rem;
+    }
+
+//main description 
     .title1 {
       text-align: justify;
 
@@ -57,9 +64,18 @@
         margin-right: 100px;
 
         @include mobile {
-          margin-left: 20px;
-          margin-right: 20px;
-          margin-top: 10px;
+          display: none;
+        }
+      }
+
+      //new p for mobile view 
+      .title2{
+        display: none;
+
+        @include mobile{
+          display:contents;
+          line-height: 1.6;
+          
         }
       }
     }
