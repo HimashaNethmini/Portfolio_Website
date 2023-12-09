@@ -56,8 +56,7 @@ const Services = () => {
             diving into the world of IT, I find joy in every aspect of what I
             do. My journey is painted with a palette of experiences that have
             sculpted me into someone who's not just about the skills but also
-            about the journey. I believe in continuous
-            learning, collaboration, committment, and always bring a positive vibe
+            about the journey. I believe in continuous learning, collaboration, committment, and always bring a positive vibe
             to the table. If you're looking for someone who's not just a
             professional but also a friendly face, let's connect! I'm all ears
             for new conversations and adventures. Can't wait to chat and explore
