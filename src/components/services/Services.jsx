@@ -56,18 +56,28 @@ const Services = () => {
             diving into the world of IT, I find joy in every aspect of what I
             do. My journey is painted with a palette of experiences that have
             sculpted me into someone who's not just about the skills but also
-            about the journey. I believe in continuous learning, collaboration, committment, and always bring a positive vibe
-            to the table. If you're looking for someone who's not just a
-            professional but also a friendly face, let's connect! I'm all ears
-            for new conversations and adventures. Can't wait to chat and explore
-            where creativity takes us!{" "}
+            about the journey. I believe in continuous learning, collaboration,
+            committment, and always bring a positive vibe to the table. If
+            you're looking for someone who's not just a professional but also a
+            friendly face, let's connect! I'm all ears for new conversations and
+            adventures. Can't wait to chat and explore where creativity takes
+            us!{" "}
+          </p>
+          <p className="title2">
+            Hey there <span style={{ color: "orange" }}>!</span> I'm Himasha Nethmini, a final-year IT undergrad at SLIIT.
+            I'm not just passionate about coding and design—I'm on a journey
+            fueled by curiosity and creativity. I bring a positive vibe, love
+            collaborating, and I'm committed to continuous learning. If you're
+            seeking not just a professional but a friendly, enthusiastic
+            teammate, let's connect! I'm ready for new conversations and
+            exciting adventures. Can't wait to chat and explore the
+            possibilities together! 😊
           </p>
         </div>
 
         <div className="type">
           <button>WHAT I DO?</button>
-        </div>          
-        
+        </div>
       </motion.div>
 
       <motion.div className="listContainer" variants={variants}>
@@ -77,9 +87,11 @@ const Services = () => {
         >
           <h2>Fullstack App</h2>
           <p>
-            I have experiences in developing numerous seamless user-friendly and responsive ( respond to different screens ) websites and web applications using MERN stack, Next Js, Angular and Springboot (Java).
-            Please check my github for more details. 
-          </p>          
+            I have experiences in developing numerous seamless user-friendly and
+            responsive ( respond to different screens ) websites and web
+            applications using MERN stack, Next Js, Angular and Springboot
+            (Java). Please check my github for more details.
+          </p>
           <a href="https://github.com/HimashaNethmini/Digital_Business">Go</a>
         </motion.div>
 
@@ -89,10 +101,14 @@ const Services = () => {
         >
           <h2>UI / UX Design </h2>
           <p>
-          I have experiences in designing several websites in aspects of UI/UX. Recently, I have redesign a cupcake website after identifying numerous usability and user-friendly issues.
-          I have used Figma to design UI/UX. Take a look
+            I have experiences in designing several websites in aspects of
+            UI/UX. Recently, I have redesign a cupcake website after identifying
+            numerous usability and user-friendly issues. I have used Figma to
+            design UI/UX. Take a look
           </p>
-          <a href="https://www.figma.com/proto/M6EcRtZslfmWjooM8zJT9h/Home-page?node-id=2-2&starting-point-node-id=2%3A2">Go</a>
+          <a href="https://www.figma.com/proto/M6EcRtZslfmWjooM8zJT9h/Home-page?node-id=2-2&starting-point-node-id=2%3A2">
+            Go
+          </a>
         </motion.div>
 
         <motion.div
@@ -101,7 +117,11 @@ const Services = () => {
         >
           <h2>Database </h2>
           <p>
-          I specialized in application development, favoring MongoDB & MySQL as my go-to DB. Majority of the app, uses MongoDB. Additionally, I bring experience in Oracle to ensure versatility in handling diverse database needs.</p>
+            I specialized in application development, favoring MongoDB & MySQL
+            as my go-to DB. Majority of the app, uses MongoDB. Additionally, I
+            bring experience in Oracle to ensure versatility in handling diverse
+            database needs.
+          </p>
           <a href="#">Go</a>
         </motion.div>
 
@@ -111,8 +131,9 @@ const Services = () => {
         >
           <h2>Mobile App </h2>
           <p>
-             As in semester, I have developed a mobile application in Android studio using Java. Furthermore,
-            I am currently developing a mobile application using React Native for the final year research. 
+            As in semester, I have developed a mobile application in Android
+            studio using Java. Furthermore, I am currently developing a mobile
+            application using React Native for the final year research.
           </p>
           <a href="#">Go</a>
         </motion.div>
