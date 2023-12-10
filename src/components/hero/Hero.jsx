@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./hero.scss";
 
 const Hero = () => {
+  
   useEffect (()=> {
     //initialize Typed instance when component mounts
     var typed = new Typed(".auto-input",{
