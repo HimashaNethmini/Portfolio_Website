@@ -12,8 +12,7 @@ const Hero = () => {
       loop: true
     });
     
-    //clean up Typed instance when component unmounts
-    return () => {
+    return () => { //clean up Typed instance when component unmounts
       typed.destroy();
     };
   }, []); //empty dependency array ensure the effect runs once
