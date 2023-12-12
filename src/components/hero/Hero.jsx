@@ -32,7 +32,7 @@ const Hero = () => {
           <img src="/scroll.png" alt="" />
         </div>
       </div>
-
+{/* main image */}
       <div className="imageContainer">
         <img src="/fed.png" alt="" />
       </div>
