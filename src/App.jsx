@@ -11,30 +11,25 @@ const App = () => {
   return (
     <div>
       <Cursor /> {/*adding the cursor component */}
-  
-     {/* components linking to the website */}
+      
+      {/* components linking to the website */}
       <section id="Homepage">
         <Navbar />
         <Hero />
       </section>
-
       <section id="Services">
         <Parallax type="services" />
       </section>
-
       <section>
         <Services />
       </section>
-
       <section id="Portfolio">
         <Parallax type="portfolio" />
       </section>
-
       <Portfolio />
       <section id="Contact">
         <Contact />
       </section>
-          
     </div>
   );
 };
