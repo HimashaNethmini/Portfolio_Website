@@ -43,7 +43,7 @@ const Hero = () => {
 
       {/* main image */}
       <div className="imageContainer">
-        <img src="/fed.png" alt="" />
+        <img src="/myphoto.png" alt="" />
       </div>
     </div>
   );
