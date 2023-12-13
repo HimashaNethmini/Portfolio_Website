@@ -30,8 +30,11 @@ const Hero = () => {
           </h1>
 
           <div className="buttons">
-            <button>Download CV</button>
-
+            
+          <a href="https://drive.google.com/file/d/1UGYzrZ_1bI2ObxoMBZ71McG1IjK7w0z7/view?usp=sharing">
+              <button>Download CV</button>
+          </a>
+            
             <Link to="contact">
               <button>Contact Me</button>
             </Link>
