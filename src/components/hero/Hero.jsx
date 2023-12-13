@@ -3,7 +3,6 @@ import "./hero.scss";
 import {Link} from "react-scroll";
 
 const Hero = () => {
-
   useEffect(() => {
     //initialize Typed instance when component mounts
     var typed = new Typed(".auto-input", {
@@ -30,16 +29,17 @@ const Hero = () => {
           </h1>
 
           <div className="buttons">
-            
-          <a href="https://drive.google.com/file/d/1UGYzrZ_1bI2ObxoMBZ71McG1IjK7w0z7/view?usp=sharing">
+            {/* cv link to download */}
+            <a href="https://drive.google.com/file/d/1UGYzrZ_1bI2ObxoMBZ71McG1IjK7w0z7/view?usp=sharing">
               <button>Download CV</button>
-          </a>
-            
+            </a>
+
+            {/*connected to contact us component */}
             <Link to="contact">
               <button>Contact Me</button>
             </Link>
           </div>
-          
+
           <img src="/scroll.png" alt="svg image" />
         </div>
       </div>
