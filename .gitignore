@@ -24,6 +24,7 @@ dist-ssr
 *.sw?
 
 # photo
+img1.png
 myphoto.png
 app1.png
 app2.png

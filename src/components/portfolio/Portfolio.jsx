@@ -5,9 +5,9 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "Digitial Business",
-    img: "app2.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Real Estate WebApp",
+    img: "img1.png",
+    desc: "The application is developed using MERN stack, allowing property owners to seamlessly add properties for sale. Users have the option to securely log in using either their email or Google account, with the login process protected by JWT. The platform enables users to search properities & schedule a visit. Users can add 'like' to residences, facilitating a personalized and curated selection.",
   },
   {
     id: 2,
