@@ -35,9 +35,9 @@ const items = [
   },
   {
     id: 6,
-    title: "Care NGO",
-    img: "app3.png",
-    desc: "",
+    title: "Larana Pizza Delivery",
+    img: "img6.png",
+    desc: "The frontend-only website is developed using React.js and bootstrapped with Next.js. It is responsive, offering a seamless interface for users. The inclusion of a dark mode enhances user flexibility, providing an alternative visual experience. The website offers a wide range of choices, ensuring a diverse and engaging user interaction with the platform.",
   },
   {
     id: 7,
