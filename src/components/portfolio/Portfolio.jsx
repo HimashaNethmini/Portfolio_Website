@@ -31,7 +31,7 @@ const items = [
     id: 5,
     title: "Blog App",
     img: "img5.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "The blog app is exclusively frontend, developed with React.js and bootstrapped using Next.js. It features user authentication to secure user sessions and incorporates a dark mode option, providing a more flexible and user-friendly interface. Users are capable of reading and writing blogs, updating, and deleting their own blog entries, enhancing the overall user experience and interaction with the platform.",
   },
   {
     id: 6,
