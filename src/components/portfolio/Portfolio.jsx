@@ -23,14 +23,14 @@ const items = [
   },
   {
     id: 4,
-    title: "Music App",
+    title: "Fitness Gym",
     img: "img4.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "The frontend only website developed for a fitness club using React.js, Tailwind CSS, and MUI. It boasts responsiveness across various screens and is characterized by a user-centered design that prioritizes user-friendliness. The seamless integration of these technologies ensures a smooth and intuitive experience for users, aligning with modern design principles and catering to diverse user preferences.",
   },
   {
     id: 5,
     title: "Blog App",
-    img: "app10.png",
+    img: "img5.png",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
@@ -42,13 +42,13 @@ const items = [
   {
     id: 7,
     title: "Digital Business",
-    img: "app2.png",
+    img: "img7.png",
     desc: "A frontend only website developed assuming for a bank with their usual colour palatte, bootstrapped with Next.js 13 and powered by React.js to create a dynamic and seamless user experience. Elevating the design further, Framer Motion brings animations to life, adding a touch of elegance. This website isn't just cutting-edge; it's also responsive, ensuring a top-notch user experience across all devices.",
   },
   {
     id: 8,
     title: "Music App",
-    img: "app8.png",
+    img: "img8.png",
     desc: "A frontend-only music player website with enhanced user interaction features using Framer Motion. Employed MUI components and Tailwind CSS for an aesthetically pleasing and user-friendly design.",
   },
 ];
