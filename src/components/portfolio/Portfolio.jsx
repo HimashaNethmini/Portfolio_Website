@@ -11,13 +11,13 @@ const items = [
   },
   {
     id: 2,
-    title: "Next.js Blog",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "SummerKing Website",
+    img: "img2.png",
+    desc: "A frontend only ecommerce website, developed using React Js, Tailwind css and MUI .It is responsive for multiple screens while offering a seamless user experience with dynamic functionality and visually stunning design.",
   },
   {
     id: 3,
-    title: "Vanilla JS App",
+    title: "Care NGO",
     img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
@@ -37,7 +37,7 @@ const items = [
     id: 6,
     title: "Care NGO",
     img: "app3.png",
-    desc:""
+    desc: "",
   },
   {
     id: 7,
@@ -63,13 +63,13 @@ const Single = ({ item }) => {
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
   return (
-    <section >
+    <section>
       <div className="container">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
             <img src={item.img} alt="" />
           </div>
-          <motion.div className="textContainer" style={{y}}>
+          <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <a href="https://github.com/HimashaNethmini">See Demo</a>
